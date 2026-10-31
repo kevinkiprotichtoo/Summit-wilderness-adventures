@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover hiking, camping, backpacking and custom outdoor adventures across America's remarkable wild places with Summit Wilderness Adventures.">
+  <meta name="theme-color" content="#173e32">
+  <title>Summit Wilderness Adventures | Explore Further. Experience More.</title>
+  <link rel="icon" type="image/png" href="Summit Wilderness Adventure favicon logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Small moments. Big wilderness.</span>
+      <div class="topbar-links"><a href="#contact">Talk to an adventure planner</a><span aria-hidden="true">•</span><a href="#faq">FAQs</a></div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Summit Wilderness Adventures home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 54 48" role="img"><path d="M2 42 19 10l10 17 7-12 16 27Z" fill="currentColor"/><path d="m19 10 6 10-5-2-3 5-3-3Z" fill="#f4f0e4"/><path d="m36 15 5 13-5-3-4 4-3-5Z" fill="#f4f0e4"/><path d="M7 42h40" stroke="#c89b50" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-copy"><strong>SUMMIT</strong><small>WILDERNESS ADVENTURES</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <div class="nav-item has-menu"><button class="nav-link menu-trigger" aria-expanded="false">Adventures <span class="chevron">⌄</span></button><div class="dropdown"><a href="#trip-styles">Guided Hiking</a><a href="#trip-styles">Backpacking Trips</a><a href="#trip-styles">Camping Adventures</a><a href="#trip-styles">Family & Group Trips</a></div></div>
+        <div class="nav-item has-menu"><button class="nav-link menu-trigger" aria-expanded="false">Destinations <span class="chevron">⌄</span></button><div class="dropdown"><a href="#destinations">National Parks</a><a href="#destinations">Mountains & Forests</a><a href="#destinations">Deserts & Canyons</a><a href="#destinations">Explore All Regions</a></div></div>
+        <a class="nav-link" href="#how-it-works">Plan Your Trip</a>
+        <a class="nav-link" href="#about">Our Approach</a>
+        <a class="nav-cta" href="#contact">Plan an Adventure <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Sunrise over a dramatic mountain range"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light"><span></span> YOUR NEXT GREAT OUTDOOR STORY</p>
+        <h1>Find your wild.<br><em>Follow the feeling.</em></h1>
+        <p class="hero-sub">From quiet forest trails to unforgettable mountain horizons, discover outdoor adventures that bring you closer to the places that move you.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#trip-finder">Find Your Adventure <span>↗</span></a><a class="text-link light-link" href="#destinations">Explore destinations <span>→</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Explore Further. Experience More.</span></div>
+      </div>
+      <div class="hero-stamp"><span>GO BEYOND</span><strong>THE<br>ORDINARY</strong><span class="stamp-star">✳</span></div>
+    </section>
+
+    <section class="finder-section" id="trip-finder">
+      <div class="container">
+        <div class="finder-card">
+          <div class="finder-heading"><span class="finder-icon">⌕</span><div><h2>Find your ideal wilderness escape</h2><p>Start with the kind of adventure you have in mind.</p></div></div>
+          <form id="tripFinder" class="finder-form">
+            <label>Destination<select id="destinationFilter"><option value="">Anywhere in the U.S.</option><option value="new-england">Maine & New England</option><option value="alaska">Alaska Wilderness & Arctic</option><option value="southwest">Southwest & Desert Canyons</option><option value="pacific">Pacific Northwest & West Coast</option><option value="appalachians">Appalachians & Great Smoky Mountains</option></select></label>
+            <label>Adventure style<select id="styleFilter"><option value="">Any adventure style</option><option value="hiking">Guided hiking</option><option value="backpacking">Backpacking</option><option value="camping">Camping</option><option value="family">Family & groups</option></select></label>
+            <label>When would you like to go?<select id="seasonFilter"><option value="">I'm flexible</option><option value="spring">Spring</option><option value="summer">Summer</option><option value="fall">Fall</option><option value="winter">Winter</option></select></label>
+            <button class="button button-green" type="submit">Explore Trips <span>→</span></button>
+          </form>
+          <p class="finder-result" id="finderResult" aria-live="polite">Choose your preferences to explore ideas. Sample experiences are for planning inspiration; dates and availability will be added when confirmed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-section section-pad" id="about">
+      <div class="container intro-grid">
+        <div class="intro-image-wrap">
+          <img class="intro-image" src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1000&q=85" alt="Deer standing in a sunlit forest" loading="lazy">
+          <div class="image-caption"><span class="caption-icon">✳</span><div><strong>More than a getaway</strong><small>Make room for wonder.</small></div></div>
+        </div>
+        <div class="intro-copy">
+          <p class="eyebrow"><span></span> THE SUMMIT DIFFERENCE</p>
+          <h2>Wild places have a way of <em>bringing us back.</em></h2>
+          <p class="large-copy">The best adventures aren't just about how far you go. They're about what you notice, who you share the trail with, and the feeling you take home.</p>
+          <p>Summit Wilderness Adventures is being built around thoughtful trip planning, memorable outdoor experiences, and a respect for the landscapes that make them possible. Whether you're new to hiking or planning your next big trek, we'll help you find a path that fits.</p>
+          <a class="underlined-link" href="#how-it-works">Discover our approach <span>→</span></a>
+          <div class="mini-stats"><div><strong>01</strong><span>Personalized<br>planning</span></div><div><strong>02</strong><span>Nature-first<br>experiences</span></div><div><strong>03</strong><span>Room to explore<br>your way</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="destinations-section section-pad" id="destinations">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span> OPEN THE MAP</p><h2>Places that stay<br><em>with you.</em></h2></div>
+          <div class="heading-aside"><p>From sculpted desert landscapes to alpine lakes and deep green forests, find a destination that calls you outside.</p><a class="underlined-link" href="#contact">Ask about a destination <span>→</span></a></div>
+        </div>
+        <div class="destination-grid">
+          <a class="destination-card dest-tall" href="#contact" data-destination="southwest"><img src="https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1100&q=85" alt="Towering red sandstone cliffs in the American Southwest" loading="lazy"><span class="dest-shade"></span><span class="dest-meta"><small>DESERTS & CANYONS</small><strong>Southwest Wonders</strong><span class="dest-arrow">↗</span></span></a>
+          <a class="destination-card" href="#contact" data-destination="rockies"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85" alt="Snow-tipped mountain peaks" loading="lazy"><span class="dest-shade"></span><span class="dest-meta"><small>ALPINE COUNTRY</small><strong>Rocky Mountains</strong><span class="dest-arrow">↗</span></span></a>
+          <a class="destination-card" href="#contact" data-destination="pacific"><img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85" alt="Sunlight filtering through an evergreen forest" loading="lazy"><span class="dest-shade"></span><span class="dest-meta"><small>FORESTS & COASTS</small><strong>Pacific Northwest</strong><span class="dest-arrow">↗</span></span></a>
+          <a class="destination-card" href="#contact" data-destination="east"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85" alt="Hiker looking out over a scenic valley" loading="lazy"><span class="dest-shade"></span><span class="dest-meta"><small>ROLLING RIDGELINES</small><strong>Appalachians & East</strong><span class="dest-arrow">↗</span></span></a>
+        </div>
+        <p class="small-note">Destination imagery is illustrative. Specific trips, routes, guide services and dates will be listed once confirmed.</p>
+      </div>
+    </section>
+
+    <section class="trips-section section-pad" id="featured-trips">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span> FEATURED EXPERIENCES</p><h2>Make a plan for<br><em>somewhere wild.</em></h2></div>
+          <div class="heading-aside"><p>Explore sample itineraries designed to show the range of landscapes, pacing and support available through Summit.</p><a class="underlined-link" href="#contact">Ask about a trip <span>→</span></a></div>
+        </div>
+        <div class="trip-grid">
+          <article class="trip-card" data-trip-destination="new-england" data-trip-style="hiking"><div class="trip-card-image trip-image-acadia"></div><div class="trip-card-copy"><span class="trip-badge">Inn-Based / Lodge</span><h3>Acadia National Park Lodge Tour</h3><p class="trip-location">Maine · New England</p><div class="trip-facts"><span>5 Days / 4 Nights</span><strong>$4,150 – $4,500</strong></div><p>Coastal trails, carriage roads and autumn landscapes with comfortable inns, permits and certified guides.</p></div></article>
+          <article class="trip-card" data-trip-destination="appalachians" data-trip-style="hiking"><div class="trip-card-image trip-image-smokies"></div><div class="trip-card-copy"><span class="trip-badge">Lodge Hiking</span><h3>Smoky Mountains Autumn Foliage Trek</h3><p class="trip-location">Tennessee / North Carolina</p><div class="trip-facts"><span>4 Days / 3 Nights</span><strong>$3,450 – $3,800</strong></div><p>Ridge walks and peak-season color with scenic lodges, trail planning and local guide support.</p></div></article>
+          <article class="trip-card" data-trip-destination="new-england" data-trip-style="backpacking"><div class="trip-card-image trip-image-white"></div><div class="trip-card-copy"><span class="trip-badge">Mountain Huts & Inns</span><h3>White Mountains Ridge Traverse</h3><p class="trip-location">New Hampshire</p><div class="trip-facts"><span>5 Days / 4 Nights</span><strong>$2,850 – $3,400</strong></div><p>Classic ridgelines with hut stays, inn nights, route logistics and experienced mountain guides.</p></div></article>
+          <article class="trip-card" data-trip-destination="alaska" data-trip-style="hiking"><div class="trip-card-image trip-image-denali"></div><div class="trip-card-copy"><span class="trip-badge">Fly-In Basecamp</span><h3>Denali Unexplored Basecamp</h3><p class="trip-location">Alaska</p><div class="trip-facts"><span>4 Days / 3 Nights</span><strong>$3,195 – $3,500</strong></div><p>Remote tundra hiking with bush plane transfers, permits, certified guides and camp gear.</p></div></article>
+          <article class="trip-card" data-trip-destination="alaska" data-trip-style="family"><div class="trip-card-image trip-image-bears"></div><div class="trip-card-copy"><span class="trip-badge">Fly-In / Wildlife</span><h3>Katmai Bear Viewing & Basecamp</h3><p class="trip-location">Alaska</p><div class="trip-facts"><span>5 Days / 4 Nights</span><strong>$5,195 – $5,800</strong></div><p>Responsible bear viewing, riverside camp comfort, floatplane transfers and naturalist guides.</p></div></article>
+          <article class="trip-card" data-trip-destination="alaska" data-trip-style="camping"><div class="trip-card-image trip-image-lake-clark"></div><div class="trip-card-copy"><span class="trip-badge">Kayaking & Hiking</span><h3>Twin Lakes Paddle & Hike</h3><p class="trip-location">Lake Clark, Alaska</p><div class="trip-facts"><span>7 Days / 6 Nights</span><strong>$4,695 – $5,200</strong></div><p>Glacial lake paddling and alpine trails with expedition equipment, transfers and guide support.</p></div></article>
+          <article class="trip-card" data-trip-destination="alaska" data-trip-style="backpacking"><div class="trip-card-image trip-image-wrangell"></div><div class="trip-card-copy"><span class="trip-badge">Extreme Backcountry</span><h3>Wrangell-St. Elias Wilderness Backpacking</h3><p class="trip-location">Alaska</p><div class="trip-facts"><span>10 Days / 9 Nights</span><strong>$5,195 – $5,900</strong></div><p>High-country wilderness travel with route planning, backcountry permits, safety systems and expert guides.</p></div></article>
+          <article class="trip-card" data-trip-destination="pacific" data-trip-style="hiking"><div class="trip-card-image trip-image-olympic"></div><div class="trip-card-copy"><span class="trip-badge">Coastal Lodges</span><h3>Olympic National Park Rainforest & Coast</h3><p class="trip-location">Washington</p><div class="trip-facts"><span>5 Days / 4 Nights</span><strong>$4,195 – $4,600</strong></div><p>Old-growth rainforest and wild coastlines with lodge comfort, permits and naturalist-led hikes.</p></div></article>
+          <article class="trip-card" data-trip-destination="southwest" data-trip-style="hiking"><div class="trip-card-image trip-image-canyon"></div><div class="trip-card-copy"><span class="trip-badge">Inn-Based Hiking</span><h3>Grand Canyon & Sedona Desert Tour</h3><p class="trip-location">Arizona</p><div class="trip-facts"><span>3 Days / 2 Nights</span><strong>$2,595 – $2,950</strong></div><p>Red-rock scenery and canyon viewpoints with handpicked inns, transfers and guided day hikes.</p></div></article>
+          <article class="trip-card" data-trip-destination="southwest" data-trip-style="backpacking"><div class="trip-card-image trip-image-utah"></div><div class="trip-card-copy"><span class="trip-badge">Desert Lodge & Slots</span><h3>Utah Canyons: Escalante & Capitol Reef</h3><p class="trip-location">Utah</p><div class="trip-facts"><span>5 Days / 4 Nights</span><strong>$3,195 – $3,600</strong></div><p>Slot canyons and sandstone country with lodge stays, permits, route planning and expert guides.</p></div></article>
+        </div>
+        <p class="small-note">Prices are illustrative planning ranges per person, not bookable departures. Final costs depend on dates, group size, permits, transport and availability.</p>
+      </div>
+    </section>
+
+    <section class="styles-section section-pad" id="trip-styles">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span> CHOOSE YOUR PACE</p><h2>Your kind of <em>adventure.</em></h2></div>
+          <p class="heading-description">A sunrise summit, a night beneath the stars, a trail shared with your favorite people. Start with what feels right for you.</p>
+        </div>
+        <div class="style-grid">
+          <article class="style-card"><div class="style-number">01 / MOVE</div><img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=850&q=85" alt="Hikers walking along a mountain trail" loading="lazy"><div class="style-card-copy"><h3>Guided Hiking</h3><p>Explore scenic trails with a thoughtful plan and the right level of challenge.</p><a href="#contact" class="circle-link" aria-label="Ask about guided hiking">↗</a></div></article>
+          <article class="style-card"><div class="style-number">02 / WANDER</div><img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=850&q=85" alt="Tent pitched in a scenic campsite" loading="lazy"><div class="style-card-copy"><h3>Camping & Backpacking</h3><p>Slow down, carry what you need, and wake up somewhere remarkable.</p><a href="#contact" class="circle-link" aria-label="Ask about camping and backpacking">↗</a></div></article>
+          <article class="style-card"><div class="style-number">03 / CONNECT</div><img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=850&q=85" alt="Family enjoying time outdoors together" loading="lazy"><div class="style-card-copy"><h3>Family & Group Trips</h3><p>Make shared memories with an outdoor plan tailored to your group.</p><a href="#contact" class="circle-link" aria-label="Ask about family and group trips">↗</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="quote-background"></div><div class="container quote-content"><span class="quote-mark">“</span><p>The world feels a little bigger<br>when you step outside.</p><span class="quote-rule"></span><small>TAKE THE SCENIC ROUTE</small></div>
+    </section>
+
+    <section class="how-section section-pad" id="how-it-works">
+      <div class="container how-grid">
+        <div><p class="eyebrow"><span></span> A CLEAR PATH FORWARD</p><h2>Good trips start<br>with a <em>good plan.</em></h2><p class="large-copy">Tell us what inspires you. We'll help you turn the idea into a practical next step.</p><a class="button button-green" href="#contact">Start planning <span>↗</span></a></div>
+        <div class="steps">
+          <article class="step"><span>01</span><div><h3>Share your idea</h3><p>Choose a destination, trip style, timeframe and who's coming along.</p></div></article>
+          <article class="step"><span>02</span><div><h3>Shape the experience</h3><p>We'll discuss your interests, experience level, pace and practical needs.</p></div></article>
+          <article class="step"><span>03</span><div><h3>Confirm the details</h3><p>Before any booking is accepted, you'll receive clear details on availability, costs, logistics and requirements.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="values-section">
+      <div class="container values-grid">
+        <div class="value"><span class="value-icon">✳</span><div><h3>Thoughtful planning</h3><p>Recommendations shaped around your interests, group and comfort level.</p></div></div>
+        <div class="value"><span class="value-icon">⌁</span><div><h3>Respect for wild places</h3><p>Encouraging responsible travel and care for the places we visit.</p></div></div>
+        <div class="value"><span class="value-icon">↟</span><div><h3>Clear expectations</h3><p>Practical information about difficulty, preparation and trip logistics.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy"><p class="eyebrow light"><span></span> LET'S MAKE IT HAPPEN</p><h2>Your next chapter<br>starts <em>out there.</em></h2><p>Have a place in mind—or just a feeling you're chasing? Tell us a little about your adventure and we'll help you work out the next step.</p><div class="contact-detail"><span>✳</span><div><strong>Made for your kind of outdoors</strong><small>Solo explorers · Families · Friends · Groups</small></div></div></div>
+        <form class="contact-form" id="inquiryForm">
+          <div class="form-row"><label for="name">Your name <span>*</span><input id="name" name="name" autocomplete="name" required placeholder="Full name"></label><label for="email">Email address <span>*</span><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></label></div>
+          <div class="form-row"><label for="interest">I'm interested in<select id="interest" name="interest"><option>Help me choose</option><option>Guided hiking</option><option>Camping or backpacking</option><option>Family or group trip</option><option>Custom itinerary</option><option>Tourism / visitor management</option></select></label><label for="timing">When are you thinking?<select id="timing" name="timing"><option>I'm flexible</option><option>Spring</option><option>Summer</option><option>Fall</option><option>Winter</option><option>Specific dates</option></select></label></div>
+          <label for="message">Tell us about your idea<textarea id="message" name="message" rows="3" placeholder="Destination, group size, experience level, or anything you'd love to do…"></textarea></label>
+          <button class="button button-gold button-full" type="submit">Send adventure inquiry <span>↗</span></button>
+          <p class="form-note">This demo form opens your email app. It does not make a reservation or process payments.</p>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="faq-section section-pad" id="faq"><div class="container faq-grid"><div><p class="eyebrow"><span></span> BEFORE YOU GO</p><h2>A few good<br><em>questions.</em></h2></div><div class="faq-list">
+      <details><summary>Can I request a custom trip? <span>+</span></summary><p>Yes. Use the inquiry form to share your destination ideas, dates, group size and interests. Custom requests are inquiries only until details and availability are confirmed.</p></details>
+      <details><summary>Are trips available to book online now? <span>+</span></summary><p>This is the first website prototype. Real trip dates, pricing, availability, payments and confirmations still need to be connected to the business's booking process before accepting reservations.</p></details>
+      <details><summary>Do I need hiking experience? <span>+</span></summary><p>That depends on the route and activity. When a trip is listed, its distance, elevation, terrain, difficulty and preparation requirements should be clearly explained.</p></details>
+      <details><summary>Are you operating in every U.S. destination? <span>+</span></summary><p>The destination pages are a starting point, not a claim of current operations. Each offered trip must be confirmed with qualified guides, required permits, insurance and local arrangements.</p></details>
+    </div></div></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main"><div class="footer-brand"><a class="brand brand-light" href="#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 54 48"><path d="M2 42 19 10l10 17 7-12 16 27Z" fill="currentColor"/><path d="m19 10 6 10-5-2-3 5-3-3Z" fill="#f4f0e4"/><path d="m36 15 5 13-5-3-4 4-3-5Z" fill="#f4f0e4"/><path d="M7 42h40" stroke="#c89b50" stroke-width="2.5" stroke-linecap="round"/></svg></span><span class="brand-copy"><strong>SUMMIT</strong><small>WILDERNESS ADVENTURES</small></span></a><p>Explore Further. Experience More.</p><p class="footer-mission">Thoughtful plans for meaningful time outside.</p></div><div class="footer-column"><h4>EXPLORE</h4><a href="#destinations">Destinations</a><a href="#trip-styles">Adventure styles</a><a href="#how-it-works">Plan your trip</a></div><div class="footer-column"><h4>ABOUT</h4><a href="#about">Our approach</a><a href="#faq">FAQs</a><a href="#contact">Contact us</a></div><div class="footer-column footer-cta"><h4>THE OUTDOORS IS CALLING</h4><p>Let’s find your next great adventure.</p><a class="footer-link" href="#contact">Start a conversation <span>↗</span></a><a class="footer-link" href="https://wa.me/46707243148" target="_blank" rel="noopener noreferrer" aria-label="Message Summit Wilderness Adventures on WhatsApp">Message us on WhatsApp <span>↗</span></a></div></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Summit Wilderness Adventures</span><span>Explore with care. Leave it better.</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
